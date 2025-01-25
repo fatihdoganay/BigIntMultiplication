@@ -24,11 +24,3 @@ resultIndex -> leftIndex,rightIndex
 17  ->    X     X     X     X     X     X     X     X    8,9   9,8    X    X    X    X    X    X    X    X       h
 18  ->    X     X     X     X     X     X     X     X     X    9,9    X    X    X    X    X    X    X    X    X  |
 ------------------------------------------------------------------------------------------------------------------
-
-
-
-leftIndex = resultIndex < rightLength ? 0 : 
-    resultIndex - rightLength + 1;
-
-rightIndex = resultIndex < rightLength ? resultIndex :
-    rightLength - 1
